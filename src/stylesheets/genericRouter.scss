@@ -1,0 +1,16 @@
+.generic-router {
+  width: 100vw;
+  //overflow: auto;
+
+  .container {
+    background: #ffffff;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    .row {
+      width: 100%;
+    }
+  }
+}

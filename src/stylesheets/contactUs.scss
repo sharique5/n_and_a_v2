@@ -1,0 +1,33 @@
+.contact-us {
+  width: 100%;
+  .row {
+    margin-bottom: 5%;
+
+    .col-lg-4,
+    .col-sm-6,
+    .col-md-4 {
+      padding: 3%;
+    }
+  }
+
+  svg {
+    color: #3D5B94;
+  }
+
+  form {
+    background: #3D5B94;
+    padding: 5%;
+
+    .form-group {
+      text-align: justify;
+      color: #ffffff;
+      span {
+        color: red;
+      }
+    }
+  }
+
+  iframe {
+    height: 50vh;
+  }
+}

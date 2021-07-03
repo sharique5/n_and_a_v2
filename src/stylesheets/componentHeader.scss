@@ -1,0 +1,21 @@
+.hello-class {
+  background-image: url("../static/images/baner.jpg");
+  max-height: 600px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-bottom: 5%;
+
+  .container {
+    background: transparent;
+
+    h1 {
+      font-size: 32px;
+      line-height: 24px;
+      color: aliceblue;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}

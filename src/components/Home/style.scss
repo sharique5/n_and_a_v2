@@ -1,0 +1,109 @@
+.home-container {
+    overflow-y: auto;
+}
+#home {
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    background-color: #61dafb;
+    background-image: url("https://wallpaperaccess.com/download/lawyer-165847");
+}
+#home h1 {
+    font-size: 40px;
+}
+#home h3 {
+    font-size: 14px;
+}
+#home hr {
+    width: 240px;
+}
+#home .btn {
+    background: transparent;
+    border: 4px solid #ffffff;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 12px 42px;
+    margin-top: 40px;
+    margin-right: 16px;
+    transition: all 0.4s ease-in-out;
+}
+#home .btn:hover {
+    background: #00c6d7;
+    border-color: transparent;
+}
+#home .btn-danger {
+    background: #00c6d7;
+    border-color: transparent;
+}
+#home .btn-danger:hover {
+    border: 4px solid #ffffff;
+    border-radius: 0;
+    background: transparent;
+    color: #ffffff;
+}
+
+.searchBox {
+    position: absolute;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+    background: white;
+    color : #2f3640;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+    .searchBox:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+    }
+}

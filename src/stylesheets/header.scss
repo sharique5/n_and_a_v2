@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Elephant Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Elephant Regular'), url('../static/fonts/Elephant-PersonalUse.woff') format('woff');
+}
+
+.header {
+  height: 15vh;
+
+  .container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-end !important;
+
+    .title {
+      color: #3D5B94;
+      //color: #ffffff;
+      font-size: 32px;
+      font-family:'Elephant Regular';
+      letter-spacing: 0.05em;
+    }
+
+    .tagline {
+      color: #3D5B94;
+      font-size: 14px;
+      font-family: 'Baskerville old face';
+      letter-spacing: 0.15em;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+
+  }
+}

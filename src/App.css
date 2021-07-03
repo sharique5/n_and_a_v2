@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -34,5 +38,84 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.modal-backdrop.show {
+  opacity: .5;
+}
+
+.modal-footer {
+  text-align: left;
+}
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - 1rem);
+}
+
+.modal-body img{
+  width: 100%;
+}
+
+.modal-body .speciality {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.modal-body .email{
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10%;
+}
+
+.modal-body .member-name {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.modal-body .row {
+  margin-top: 3%;
+}
+
+.modal-body p {
+  text-align: justify;
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog-centered {
+    min-height: calc(100% - 3.5rem);
+  }
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-color: #36669d;
+  background-image: linear-gradient(
+          0deg
+          , #36669d 0%, #d3d3d3 74%);
+  background-attachment: fixed;
+
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    width: 800px;
   }
 }
