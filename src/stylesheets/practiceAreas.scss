@@ -1,9 +1,87 @@
+//.accordion {
+//  width: 100%;
+//  display: flex;
+//  flex-direction: column;
+//  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+//  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+//  max-width: 991px;
+//  min-width: 320px;
+//  margin: 50px auto;
+//}
+//
+//.accordion-item {
+//  margin-top: 10px;
+//  border: 1px solid #ddd;
+//  border-radius: 6px;
+//}
+//
+//.accordion-item-title {
+//  position: relative;
+//  margin: 0;
+//  display: flex;
+//  width: 100%;
+//  font-size: 15px;
+//  cursor: pointer;
+//  justify-content: space-between;
+//  flex-direction: row-reverse;
+//  padding: 14px 20px;
+//  box-sizing: border-box;
+//  align-items: center;
+//  background: #3D5B94;
+//  color: #ffffff;
+//}
+//
+//.accordion-item-desc {
+//  display: none;
+//  font-size: 14px;
+//  line-height: 18px;
+//  color: #333;
+//  border-top: 1px dashed #ddd;
+//  padding: 10px 20px 20px;
+//  box-sizing: border-box;
+//  text-align: justify;
+//}
+//
+//.accordion-item input[type="checkbox"] {
+//  position: absolute;
+//  height: 0;
+//  width: 0;
+//  opacity: 0;
+//}
+//.accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
+//  display: block;
+//}
+//
+//.accordion-item input[type="checkbox"] ~ .accordion-item-title .icon:after {
+//  content: "+";
+//}
+//
+//.accordion-item
+//input[type="checkbox"]:checked
+//~ .accordion-item-title
+//.icon:after {
+//  content: "-";
+//}
+//
+//.accordion-item input[type="checkbox"]:checked ~ .accordion-item-title {
+//  font-weight: bold;
+//}
+//
+//.accordion-item:first-child {
+//  margin-top: 0;
+//}
+//
+//.icon {
+//  margin-left: 14px;
+//  font-weight: normal;
+//}
+
+
 .accordion {
   width: 100%;
   display: flex;
   flex-direction: column;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   max-width: 991px;
   min-width: 320px;
   margin: 50px auto;
@@ -42,33 +120,35 @@
   text-align: justify;
 }
 
-.accordion-item input[type="checkbox"] {
-  position: absolute;
-  height: 0;
-  width: 0;
-  opacity: 0;
-}
-.accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
-  display: block;
-}
+.accordion-item {
+  input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
 
-.accordion-item input[type="checkbox"] ~ .accordion-item-title .icon:after {
-  content: "+";
-}
+    &:checked {
+      ~ .accordion-item-desc {
+        display: block;
+      }
 
-.accordion-item
-input[type="checkbox"]:checked
-~ .accordion-item-title
-.icon:after {
-  content: "-";
-}
+      ~ .accordion-item-title {
+        .icon:after {
+          content: "-";
+        }
 
-.accordion-item input[type="checkbox"]:checked ~ .accordion-item-title {
-  font-weight: bold;
-}
+        font-weight: bold;
+      }
+    }
 
-.accordion-item:first-child {
-  margin-top: 0;
+    ~ .accordion-item-title .icon:after {
+      content: "+";
+    }
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 .icon {

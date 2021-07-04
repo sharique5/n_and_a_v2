@@ -3,22 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aff61251-32ef-4cca-8a38-37713cf0c914" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Disclaimer/DisclaimerModal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/images/logo_invert.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/images/water-background.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/images/water_cropped.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/images/water_cropped_v2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/images/water_background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/disclaimerModal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/headerBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/headerBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/practiceAreas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/practiceAreas.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/team.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +91,7 @@
       <workItem from="1625244516658" duration="3181000" />
       <workItem from="1625274684628" duration="12651000" />
       <workItem from="1625302585093" duration="510000" />
-      <workItem from="1625364698024" duration="925000" />
+      <workItem from="1625364698024" duration="1669000" />
     </task>
     <servers />
   </component>
