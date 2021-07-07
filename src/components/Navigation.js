@@ -15,7 +15,7 @@ class Navigation extends React.Component {
 
     render() {
         return (
-            <div className="nav-row">
+            <div className="row nav-row">
                 {
                     this.state.services.map(services => {
                         return (

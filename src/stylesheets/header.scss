@@ -8,14 +8,14 @@
 .header {
   height: 15vh;
 
-  .container {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: flex-end !important;
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-flow: column;
 
     .title {
       color: #3D5B94;
-      //color: #ffffff;
       font-size: 32px;
       font-family:'Elephant Regular';
       letter-spacing: 0.05em;
@@ -31,7 +31,14 @@
 }
 
 @media screen and (max-width: 500px) {
-  .header {
+  .header-container {
 
+    .title {
+      font-size: 22px !important;
+    }
+
+    .tagline {
+      font-size: 9.5px !important;
+    }
   }
 }

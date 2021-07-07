@@ -3,6 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="aff61251-32ef-4cca-8a38-37713cf0c914" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/contactUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/contactUs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/genericRouter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/genericRouter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/headerBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/headerBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/team.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +100,11 @@
       <workItem from="1625244516658" duration="3181000" />
       <workItem from="1625274684628" duration="12651000" />
       <workItem from="1625302585093" duration="510000" />
-      <workItem from="1625364698024" duration="278000" />
+      <workItem from="1625364698024" duration="1669000" />
+      <workItem from="1625452745075" duration="3764000" />
+      <workItem from="1625496466418" duration="575000" />
+      <workItem from="1625536405133" duration="3381000" />
+      <workItem from="1625622249647" duration="1512000" />
     </task>
     <servers />
   </component>
@@ -106,5 +122,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="favicon updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicon updated" />
   </component>
 </project>

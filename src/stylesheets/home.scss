@@ -2,20 +2,17 @@
   height: 100vh;
   width: 100vw;
 
-
   .container {
-    background-image: url('../static/images/water_cropped_v2.jpg');
+    background-image: url('../static/images/water_background.jpg');
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
     width: 70%;
-    display: flex;
-    align-items: center;
-    flex-flow: column;
 
     .search-row {
-      width: 100%;
-      margin-top: 25%;
+      height: 30%;
+      display: flex;
+      align-items: flex-end;
     }
 
     .mt-5 {
@@ -35,40 +32,10 @@
 
 @media screen and (max-width: 500px) {
   .home {
-    width: 80%;
-    .container {
-      width: 100%;
-      .mt-5 {
-        margin-top: 10%;
-      }
-
-      .search-row {
-        width: 100%;
-        margin-top: 70%;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1007px) {
-  .search-row {
-    width: 100%;
-    margin-top: 70% !important;
-  }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px)  {
-  .container {
-    height: 100%;
-    width: 70%;
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-
     .search-row {
-      background: #faebcc !important;
-      width: 100%;
-      margin-top: 30%;
+      .input-group {
+        width: 100% !important;
+      }
     }
   }
 }

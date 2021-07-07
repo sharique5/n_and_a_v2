@@ -1,11 +1,11 @@
 .nav-row {
-  background: none;
-  width: 100%;
-  margin-top: 10%;
+  height: 55%;
+  text-align: center;
+  margin-top: 15%;
+
   a {
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.14em;
@@ -40,9 +40,13 @@
 
 @media screen and (max-width: 500px) {
   .nav-row {
+    ul {
+      padding-left: 0;
+    }
     a {
-      font-size: 8px;
+      font-size: 9px;
       line-height: 12px;
+      letter-spacing: unset;
     }
   }
 }
