@@ -107,3 +107,11 @@ navigation section
       letter-spacing: 0.15em;
     }
 }
+
+@media screen and (max-width: 500px){
+  .custom-navbar {
+    .container {
+      height: unset;
+    }
+  }
+}

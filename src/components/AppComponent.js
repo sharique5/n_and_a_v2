@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from "./Home";
 import DisclaimerModal from "./DisclaimerModal";
+import Header from "./Header";
 
 class AppComponent extends React.Component {
     constructor(props) {

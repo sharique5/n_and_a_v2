@@ -1,10 +1,10 @@
-.App {
-  text-align: center;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
+@font-face {
+  font-family: 'Charlie Text';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Elephant Regular'), url('./static/fonts/Charlie_Text-Regular.woff2') format('woff2');
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -94,28 +94,9 @@
   }
 }
 
-html {
-  height: 100%;
-}
-
 body {
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
   background-color: #36669d;
-  background-image: linear-gradient(
-          0deg
-          , #36669d 0%, #d3d3d3 74%);
+  background-image: linear-gradient(0deg, #36669d 0%, #d3d3d3 74%);
   background-attachment: fixed;
-
-  overflow: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-}
-
-@media screen and (max-width: 500px) {
-  .App {
-    width: 800px;
-  }
+  font-family: 'Libre Baskerville', serif;
 }
