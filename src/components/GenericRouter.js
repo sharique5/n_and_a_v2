@@ -8,6 +8,7 @@ import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import Team from "./Team";
 import PracticeAreas from "./PracticeAreas";
+import OutstationService from "./OutstationService";
 
 class GenericRouter extends React.Component {
     getCurrentRoute() {
@@ -36,6 +37,9 @@ class GenericRouter extends React.Component {
         }
         if (this.getCurrentRoute() === "areas_of_practice") {
             return <PracticeAreas/>
+        }
+        if (this.getCurrentRoute() === "outstation_services") {
+            return <OutstationService/>
         }
     }
 
