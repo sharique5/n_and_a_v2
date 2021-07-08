@@ -85,7 +85,31 @@
 
 .modal-body p {
   text-align: justify;
+  font-size: 12px;
+  padding-bottom: 2%;
+}
+
+.modal-body .member-description p {
+  text-align: justify;
   font-size: 16px;
+}
+
+.modal-body h3 {
+  color: #8c0000;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  padding-bottom: 3%;
+}
+
+.modal-body h4 {
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.14em;
+  line-height: 18px;
+  padding-bottom: 2%;
 }
 
 @media (min-width: 576px) {
