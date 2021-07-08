@@ -21,10 +21,12 @@ class Team extends React.Component {
     }
 
     handleShow(member) {
-        this.setState({
-            selectedMember: member,
-            showMemberDetails: true
-        })
+        if (member.description) {
+            this.setState({
+                selectedMember: member,
+                showMemberDetails: true
+            })
+        }
     }
 
     render() {
@@ -46,12 +48,12 @@ class Team extends React.Component {
                         {
                             this.state.teams.map(team => (
                                 <div className="col-sm-6 col-lg-6 col-xl-6">
-                                    <div className="single-person">
+                                    <div className={"single-person " + (team.description ? "" : "no-description")} onClick={event => this.handleShow(team)}>
                                         <div className="person-image">
-                                            <img src={team.image || "https://i.ibb.co/G2CBWvb/person1.jpg"} alt={team.name}/>
+                                            <img src={team.image || "https://ui-avatars.com/api/?name=" + team.name} alt={team.name}/>
                                         </div>
                                         <div className="person-info">
-                                            <h3 className="full-name" onClick={event => this.handleShow(team)}>{team.name}</h3>
+                                            <h3 className="full-name">{team.name}</h3>
                                             <span className="speciality">{team.designation}</span>
                                         </div>
                                     </div>

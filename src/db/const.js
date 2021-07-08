@@ -53,31 +53,66 @@ export const static_content = {
         "<p>With a keen focus on learning and specialized practices, we keep in touch with the changing environment in which our clients operate. We take pride in combining the expertise and diversity of experience with the personalized attention and responsiveness. Our lawyers work seamlessly across practice areas to assist our clients.</p>",
     our_team: [
         {
-            name: "Kapil Shukla",
-            description: "<p>Kapil Shukla is a Criminal lawyer based in Indore and is currently serving as the Managing Partner in Nair & Associates. He entered the legal fraternity in 2003 and has been practicing law since then. He is regarded by his clients for his ability to find constructive and innovative solutions to complex legal issues. He actively advises government enterprises and individual clients on a variety of legal matters. He has vast experience in Criminal Laws, Property Laws, Cyber Laws, Family Laws, Labor and Industrial employment Laws and Negotiable Instrument Laws. Kapil regularly appears before the District Courts and Tribunals in Indore. He also has valuable experience in sociology and his biggest strength is cross-examining the witnesses before the Court. Presently, He is also appointed as a lawyer for Bar Council of Madhya Pradesh.</p>",
-            designation: "Filler",
-            email: "kapil.shukla@nairandassociates.in",
+            name: "Pramod C. Nair",
+            description: "<p>Having founded Nair & Associates over 17 years ago, Pramod C. Nair is currently the Chairman of the Firm. He advised clients in court litigations as well as arbitration disputes. His practice covers constitutional law, international commercial arbitration, administrative law, land & revenue, immigration laws, civil law, corporate frauds, environment law, consumer law and competition law related issues. He has also advised banks and financial institutions on lending for airports, roads, power and other infrastructure projects. He services clients from the world of technology, digital media, fashion, luxury goods, logistics, media and the chemical industry in a variety of matters both, in the nature of civil and criminal litigation. He has vast experience of appearing and practicing before various District Courts, High Courts and Tribunals across the country including the Apex Court of India. He is also the standing counsel for the Bar Council of Madhya Pradesh. He is quiet at ease in handling the dynamic analytical surges in legal matters and he sails off smoothly with a very basic simplicity in grasping the crux of overly complex situations. This essentially defines him a perfect leader to fuel on the values and professional standards at very high pitches.</p>",
+            designation: "Chairman & Founder",
+            email: "pramod.nair@nairandassociates.in",
             image: ""
         },
         {
-            name: "Pramod C. Nair",
-            description: "<p>Having founded Nair & Associates over 17 years ago, Pramod C. Nair is currently the Chairman of the Firm. He advised clients in court litigations as well as arbitration disputes. His practice covers constitutional law, international commercial arbitration, administrative law, land & revenue, immigration laws, civil law, corporate frauds, environment law, consumer law and competition law related issues. He has also advised banks and financial institutions on lending for airports, roads, power and other infrastructure projects. He services clients from the world of technology, digital media, fashion, luxury goods, logistics, media and the chemical industry in a variety of matters both, in the nature of civil and criminal litigation. He has vast experience of appearing and practicing before various District Courts, High Courts and Tribunals across the country including the Apex Court of India. He is also the standing counsel for the Bar Council of Madhya Pradesh. He is quiet at ease in handling the dynamic analytical surges in legal matters and he sails off smoothly with a very basic simplicity in grasping the crux of overly complex situations. This essentially defines him a perfect leader to fuel on the values and professional standards at very high pitches.</p>",
-            designation: "Filler",
-            email: "pramod.nair@nairandassociates.in",
+            name: "Kapil Shukla",
+            description: "<p>Kapil Shukla is a Criminal lawyer based in Indore and is currently serving as the Managing Partner in Nair & Associates. He entered the legal fraternity in 2003 and has been practicing law since then. He is regarded by his clients for his ability to find constructive and innovative solutions to complex legal issues. He actively advises government enterprises and individual clients on a variety of legal matters. He has vast experience in Criminal Laws, Property Laws, Cyber Laws, Family Laws, Labor and Industrial employment Laws and Negotiable Instrument Laws. Kapil regularly appears before the District Courts and Tribunals in Indore. He also has valuable experience in sociology and his biggest strength is cross-examining the witnesses before the Court. Presently, He is also appointed as a lawyer for Bar Council of Madhya Pradesh.</p>",
+            designation: "Managing Director",
+            email: "kapil.shukla@nairandassociates.in",
             image: ""
         },
         {
             name: "Sahil jain",
             description: "<p>Sahil Jain graduated from Symbiosis Law School with a B.A. LL.B. He has his core expertise in Copyrights, patents, trademarks, industrial designs and other aspects of Intellectual Property Laws. Apart from IP Laws he has ample knowledge in the fields of contract, sale of goods, customs/export-import, competition, aviation and maritime laws. Sahil has also published several research papers and articles in books, Journals and a few blogs. He also possesses immaculate articulation and research skills and is a voracious reader who always strives to gain more knowledge. He has worked for several social organizations and took part is various workshops throughout the whole country.</p>",
-            designation: "Filler",
+            designation: "Associate",
             email: "sahil.jain@nairandassociates.in",
             image: ""
         },
         {
             name: "Nakul Mangal",
             description: "<p>Nakul Mangal has core expertise in corporate law and transactional matters which includes amalgamation, mergers and acquisitions, venture capital transactions, private equity and investment funds, foreign collaborations including joint ventures and licensing transactions. He primarily focuses on banking & finance, debt restructuring and insolvency and Bankruptcy, Indirect Taxation. Nakul Completed his BA.LL.B from Nirma University, Ahmedabad. He has several publications in various Journals and books. Nakul is well versed with laws germane to Indian and foreign Trade, structured finance and securitization and foreign direct investment into India.</p>",
-            designation: "Filler",
+            designation: "Associate",
             email: "nakul.mangal@nairandassociates.in",
+            image: ""
+        },
+        {
+            name: "Suditi Jain",
+            description: "",
+            designation: "Associate",
+            email: "",
+            image: ""
+        },
+        {
+            name: "Paras Jain",
+            description: "",
+            designation: "Associate",
+            email: "",
+            image: ""
+        },
+        {
+            name: "Sugandha Singh",
+            description: "",
+            designation: "Associate",
+            email: "",
+            image: ""
+        },
+        {
+            name: "Mahendra Solanki",
+            description: "",
+            designation: "Associate",
+            email: "",
+            image: ""
+        },
+        {
+            name: "Priyanka Sharma",
+            description: "",
+            designation: "Counselor and Consultant",
+            email: "",
             image: ""
         }
     ],
