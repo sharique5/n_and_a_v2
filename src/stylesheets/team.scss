@@ -31,6 +31,7 @@
 
     &:hover {
       background: linear-gradient(0deg, #36669d 0%, #d3d3d3 74%);
+      cursor: pointer;
     }
 
     .person-image {
@@ -63,8 +64,13 @@
     &:hover {
       .full-name, .speciality {
         color: #fff;
-        cursor: pointer;
       }
+    }
+  }
+
+  .no-description {
+    &:hover {
+      cursor: unset;
     }
   }
 }

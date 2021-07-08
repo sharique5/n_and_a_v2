@@ -15,7 +15,7 @@ class TeamDetails extends React.Component {
                     <div className="row justify-content-center text-center">
                         <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <div className="person-image">
-                                <img src={member.image || "https://i.ibb.co/G2CBWvb/person1.jpg"} alt={member.name}/>
+                                <img src={member.image || "https://ui-avatars.com/api/?name=" + member.name} alt={member.name}/>
                             </div>
                             <div className="person-info">
                                 <p className="member-name">{member.name}</p>
