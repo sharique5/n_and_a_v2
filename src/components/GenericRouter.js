@@ -10,6 +10,7 @@ import Team from "./Team";
 import PracticeAreas from "./PracticeAreas";
 import OutstationService from "./OutstationService";
 import Achievements from "./Achievements";
+import ComingSoon from "./ComingSoon";
 
 class GenericRouter extends React.Component {
     getCurrentRoute() {
@@ -24,6 +25,9 @@ class GenericRouter extends React.Component {
     }
 
     getComponentToRender() {
+        if (['other_services', 'gallery', 'our_clientele', 'research_&_publications'].indexOf(this.getCurrentRoute()) > -1) {
+            return <ComingSoon/>
+        }
         if (this.getCurrentRoute() === "not_found") {
             return "Not Found"
         }

@@ -1,0 +1,62 @@
+.coming-soon {
+  background-color: #36669d20;
+  margin: 30px;
+  padding: 30px;
+  font-family: 'Product Sans', Arial, sans-serif;
+  width: 100%;
+
+  div {
+    width: 400px;
+    margin: 6em auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 15em;
+
+    .text1 {
+      text-align: center;
+      color: #3D5B94;
+
+      text-shadow: -1px 1px 5px #ffe7b6;
+    }
+
+    .uc {
+      text-align: center;
+      color: #282c34;
+
+    }
+
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .coming-soon {
+    background-color: #CFD8DC;
+
+    div {
+      width: auto;
+      margin: 0 auto;
+      border-radius: 0;
+      padding: 1em;
+    }
+  }
+}
+
+@keyframes anim1 {
+  0% {
+    bottom: 0px;
+  }
+  25% {
+    bottom: 35px;
+  }
+  50% {
+    bottom: 15px;
+  }
+  75% {
+    bottom: 35px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}

@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aff61251-32ef-4cca-8a38-37713cf0c914" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Achievemets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Achievements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenericRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenericRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/achievements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/achievements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComingSoon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/comingSoon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/comingSoon.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SCSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -98,7 +98,7 @@
       <workItem from="1625622249647" duration="2030000" />
       <workItem from="1625704608707" duration="3084000" />
       <workItem from="1625908193844" duration="1530000" />
-      <workItem from="1625977172352" duration="3561000" />
+      <workItem from="1625977172352" duration="6724000" />
     </task>
     <servers />
   </component>

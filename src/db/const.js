@@ -20,7 +20,8 @@ export const static_links = [
     },
     {
         name: "Our Clientele",
-        key: "our_clientele"
+        key: "our_clientele",
+        is_nav: true
     },
     {
         name: "Gallery",
