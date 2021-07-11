@@ -1,8 +1,9 @@
 import React from 'react'
 import {our_achievements} from "../db/const";
 import '../stylesheets/achievements.scss';
+import {MdOpenInNew} from "react-icons/all";
 
-class Achievemets extends React.Component {
+class Achievements extends React.Component {
     render() {
         return (
             <div className="row achievement-comp">
@@ -12,7 +13,10 @@ class Achievemets extends React.Component {
                             <div className="publication">
                                 <div dangerouslySetInnerHTML={{ __html: achievement.description }} />
                                 {
-                                    achievement.link && <a href={achievement.link} target="_blank">Click here</a>
+                                    achievement.link && <a href={achievement.link} target="_blank">
+                                        See publication
+                                        <MdOpenInNew/>
+                                    </a>
                                 }
                             </div>
                         ))
@@ -23,4 +27,4 @@ class Achievemets extends React.Component {
     }
 }
 
-export default Achievemets
+export default Achievements

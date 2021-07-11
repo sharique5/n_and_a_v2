@@ -11,6 +11,12 @@
     a {
       color: #3D5B94;
       font-size: 18px;
+      display: flex;
+      align-items: center;
+    }
+
+    svg {
+      margin-left: 1%;
     }
   }
 }

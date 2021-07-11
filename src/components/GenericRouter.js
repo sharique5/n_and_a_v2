@@ -9,7 +9,7 @@ import ContactUs from "./ContactUs";
 import Team from "./Team";
 import PracticeAreas from "./PracticeAreas";
 import OutstationService from "./OutstationService";
-import Achievemets from "./Achievemets";
+import Achievements from "./Achievements";
 
 class GenericRouter extends React.Component {
     getCurrentRoute() {
@@ -40,7 +40,7 @@ class GenericRouter extends React.Component {
             return <PracticeAreas/>
         }
         if (this.getCurrentRoute() === "our_achievements") {
-            return <Achievemets/>
+            return <Achievements/>
         }
         if (this.getCurrentRoute() === "outstation_services") {
             return <OutstationService/>
