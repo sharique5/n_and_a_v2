@@ -155,11 +155,11 @@ export const static_content = {
         },
         {
             name: "Healthcare & Lifesciences",
-            value: "<p>air & Associates has had the privilege of dealing with a number of prominent pharmaceutical, healthcare and medical device companies ranging from manufacturing to hospitals. The lawyers at the Firm have deep rooted understanding of the requirements of this sector.</p>"
+            value: "<p>Nair & Associates has had the privilege of dealing with a number of prominent pharmaceutical, healthcare and medical device companies ranging from manufacturing to hospitals. The lawyers at the Firm have deep rooted understanding of the requirements of this sector.</p>"
         },
         {
             name: "Insurance",
-            value: "<p>Nait & Associates has extensive experience and understanding of the insurance industry in India. The Firm advises on the entry strategy of its insurance clients and at every stage of their business in India, including making investments in Indian ventures under Indian insurance laws.</p>"
+            value: "<p>Nair & Associates has extensive experience and understanding of the insurance industry in India. The Firm advises on the entry strategy of its insurance clients and at every stage of their business in India, including making investments in Indian ventures under Indian insurance laws.</p>"
         },
         {
             name: "Intellectual Property Rights",
@@ -183,3 +183,34 @@ export const static_content = {
         }
     ]
 }
+
+export const our_achievements = [
+    {
+        description: "<p><strong>A Jurisprudential Analysis of RTI &amp; Good Governance,&nbsp;</strong>Prestige Institute of Management, Gwalior.<br />ISBN: 978-93-86608-63-5</p> <p class=\"p1\"><strong>Nakul Mangal</strong></p>",
+        link: ""
+    },
+    {
+        description: "<p><strong>LGBT Rights in India: A historical and jurisprudential Analysis</strong><strong>, </strong>The Faculty of Law, The M.S. University of Baroda<br />ISBN: 978-93-87460-55-3</p><p class=\"p1\"><strong>Nakul Mangal</strong></p>",
+        link: ""
+    },
+    {
+        description: "<p><strong>Justice and Dignity to Under Trial Prisoners in India: A Long Path</strong><strong>, </strong>GLC Law and Policy Review<br />ISBN: 2518-9135</p><p class=\"p1\"><strong>Nakul Mangal, Sahil Jain</strong></p>",
+        link: ""
+    },
+    {
+        description: "<p><strong>How Paradigm of Law Evolved With the Society</strong><strong>, </strong>Brain Booster Articles</p><p class=\"p1\"><strong>Nakul Mangal</strong></p>",
+        link: "https://www.brainboosterarticles.com/post/how-paradigm-of-law-evolved-with-the-society"
+    },
+    {
+        description: "<p><strong>Unlawful Eviction Under The Guise of Charity: How Far Justified?, </strong>Brain Booster Articles</p><p class=\"p1\"><strong>Nakul Mangal, Sahil Jain</strong></p>",
+        link: "https://www.brainboosterarticles.com/post/unlawful-eviction-under-the-guise-of-charity-how-far-justified"
+    },
+    {
+        description: "<p><strong>An Analysis of Plight of Women in India, </strong>Aurora&rsquo;s Degree &amp; PG College, Hyderabad<br />ISBN: 978-93-5273-955-4</p><p class=\"p1\"><strong>Nakul Mangal</strong></p>",
+        link: ""
+    },
+    {
+        description: "<p><strong>Prohibition Against Ex Post Facto Laws Vis-a-vis The Principle of Fair Trial, </strong>Brain Booster Articles</p><p class=\"p1\"><strong>Nakul Mangal</strong></p>",
+        link: "https://www.brainboosterarticles.com/post/prohibition-against-ex-post-facto-laws-vis-%C3%A0-vis-the-principle-of-fair-trial"
+    }
+]

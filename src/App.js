@@ -10,6 +10,9 @@ function App() {
       <BrowserRouter>
           <div className="App">
               <Switch>
+                  <Route path="/our_achievements">
+                      <GenericRouter current_path="our_achievements"/>
+                  </Route>
                   <Route path="/outstation_services">
                       <GenericRouter current_path="outstation_services"/>
                   </Route>
