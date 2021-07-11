@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff61251-32ef-4cca-8a38-37713cf0c914" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylesheets/notFound.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComingSoon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/comingSoon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/comingSoon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -98,7 +100,7 @@
       <workItem from="1625622249647" duration="2030000" />
       <workItem from="1625704608707" duration="3084000" />
       <workItem from="1625908193844" duration="1530000" />
-      <workItem from="1625977172352" duration="6724000" />
+      <workItem from="1625977172352" duration="7724000" />
     </task>
     <servers />
   </component>

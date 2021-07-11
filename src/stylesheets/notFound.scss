@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One');
+
+/* fonts */
+$cardo : 'Cardo';
+$path : 'Pathway Gothic One';
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+.not-found{
+  h1{
+    text-align:center;
+    font-family:$path;
+    font-size:8em;
+    letter-spacing: 2px;
+    margin-top:10vh;
+  }
+  h2{
+    text-align:center;
+    font-family:$path;
+    font-size:1.5em;
+    letter-spacing: 2px;
+    color:#666;
+  }
+  h3{
+    text-align:center;
+    font-family:$path;
+    font-size:1.3em;
+    letter-spacing: 2px;
+    color:#999;
+  }
+  h4{
+    text-align:center;
+    font-family:$path;
+    padding-top:10px;
+    font-size:1.2em;
+    letter-spacing: 2px;
+  }
+  button{
+    font-family:$path;
+    letter-spacing: 2px;
+    font-size:1.1em;
+    text-transform:uppercase;
+    display:block;
+    margin:20px auto;
+    background-color:#000;
+    color:#fff;
+    border:none;
+    outline:none;
+    padding:5px 35px;
+    &:hover{
+      background-color:#222;
+    }
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .not-found{
+    h2{
+      font-size:2em;
+    }
+  }
+}

@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
 import AppComponent from "./components/AppComponent";
 import GenericRouter from "./components/GenericRouter";
+import NotFound from "./components/NotFound";
 
 
 function App() {
@@ -44,7 +45,7 @@ function App() {
                       <AppComponent/>
                   </Route>
                   <Route path="/*">
-                      <GenericRouter current_path="not_found"/>
+                      <NotFound/>
                   </Route>
               </Switch>
           </div>
