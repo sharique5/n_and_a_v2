@@ -28,11 +28,13 @@ export const static_links = [
     },
     {
         name: "Our Achievements",
-        key: "our_achievements"
+        key: "our_achievements",
+        is_nav: true
     },
     {
         name: "Outstation Services",
-        key: "outstation_services"
+        key: "outstation_services",
+        is_nav: true
     },
     {
         name: "Other Services",

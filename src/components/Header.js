@@ -1,6 +1,5 @@
 import React from 'react'
 import '../stylesheets/header.scss'
-import logo from '../static/images/logo_invert.png'
 
 class Header extends React.Component {
     render() {

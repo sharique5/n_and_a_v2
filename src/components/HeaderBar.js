@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../stylesheets/headerBar.scss";
-import { CSSTransition } from "react-transition-group";
 import {static_links} from "../db/const";
-import {FaAlignRight} from "react-icons/all";
 
 class HeaderBar extends React.Component {
     constructor(props) {
@@ -53,27 +51,6 @@ class HeaderBar extends React.Component {
 
     render() {
         return (
-            // <header className="header-bar">
-            //     <div className="logo">
-            //         <div className="title">Nair & Associates</div>
-            //         <div className="tagline">Legal Counsels and Consultants</div>
-            //     </div>
-            //     <CSSTransition
-            //         in={!this.state.isSmallScreen || this.state.isNavVisible}
-            //         timeout={350}
-            //         classNames="NavAnimation"
-            //         unmountOnExit
-            //     >
-            //         <nav className="Nav">
-            //             {
-            //                 this.state.navMenu.map(item => (
-            //                     <a href={"/"+item.key}>{item.name}</a>
-            //                 ))
-            //             }
-            //         </nav>
-            //     </CSSTransition>
-            //     <button className="context-menu" onClick={this.toggleNav}>hello</button>
-            // </header>
             <section className="navbar navbar-fixed-top custom-navbar" role="navigation">
                 <div className="container">
                     <div className="navbar-header">
@@ -106,34 +83,5 @@ class HeaderBar extends React.Component {
         );
     }
 }
-
-
-// class HeaderBar extends React.Component {
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             navMenu: static_links.filter(link => link.is_nav)
-//         }
-//     }
-//
-//     render() {
-//         return (
-//             <header className="header-bar">
-//                 <div className="logo">
-//                     <div className="title">Nair & Associates</div>
-//                     <div className="tagline">Legal Counsels and Consultants</div>
-//                 </div>
-//                 <nav className="Nav">
-//                     {
-//                         this.state.navMenu.map(item => (
-//                             <a href={"/"+item.key}>{item.name}</a>
-//                         ))
-//                     }
-//                 </nav>
-//                 <button className="context-menu">hello</button>
-//             </header>
-//         )
-//     }
-// }
 
 export default HeaderBar
