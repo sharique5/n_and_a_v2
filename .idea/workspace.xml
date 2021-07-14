@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff61251-32ef-4cca-8a38-37713cf0c914" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/navigationLinks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_redirects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutUs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Achievements.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComingSoon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComponentHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DisclaimerModal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenericRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotFound.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OutstationService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PracticeAreas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Team.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TeamDetails.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/IndiaMap.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/const.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/fonts/Charlie_Text-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/fonts/Elephant-PersonalUse.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/images/baner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/images/water_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/aboutUs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/achievements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/comingSoon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/componentHeader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/contactUs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/genericRouter.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/headerBar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/navigation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/notFound.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/practiceAreas.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/team.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/teamDetails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +99,7 @@
       <workItem from="1625908193844" duration="1530000" />
       <workItem from="1625977172352" duration="8228000" />
       <workItem from="1626062536520" duration="1989000" />
+      <workItem from="1626236759563" duration="182000" />
     </task>
     <servers />
   </component>
