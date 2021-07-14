@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5fc6e78a.chunk.css",
+    "main.js": "/static/js/main.6920e5dd.chunk.js",
+    "main.js.map": "/static/js/main.6920e5dd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.409f9d3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.409f9d3e.js.map",
+    "static/css/2.2fb5ecd6.chunk.css": "/static/css/2.2fb5ecd6.chunk.css",
+    "static/js/2.dcc1f2bb.chunk.js": "/static/js/2.dcc1f2bb.chunk.js",
+    "static/js/2.dcc1f2bb.chunk.js.map": "/static/js/2.dcc1f2bb.chunk.js.map",
+    "static/js/3.1d7a32f4.chunk.js": "/static/js/3.1d7a32f4.chunk.js",
+    "static/js/3.1d7a32f4.chunk.js.map": "/static/js/3.1d7a32f4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2fb5ecd6.chunk.css.map": "/static/css/2.2fb5ecd6.chunk.css.map",
+    "static/css/main.5fc6e78a.chunk.css.map": "/static/css/main.5fc6e78a.chunk.css.map",
+    "static/js/2.dcc1f2bb.chunk.js.LICENSE.txt": "/static/js/2.dcc1f2bb.chunk.js.LICENSE.txt",
+    "static/media/header.scss": "/static/media/Elephant-PersonalUse.d99412f0.woff",
+    "static/media/componentHeader.scss": "/static/media/baner.a0a153b7.jpg",
+    "static/media/bootstrap.min.css": "/static/media/glyphicons-halflings-regular.be810be3.woff2",
+    "static/media/logo_invert.8f835c80.png": "/static/media/logo_invert.8f835c80.png",
+    "static/media/home.scss": "/static/media/water_cropped_v2.cec3d6bf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.409f9d3e.js",
+    "static/css/2.2fb5ecd6.chunk.css",
+    "static/js/2.dcc1f2bb.chunk.js",
+    "static/css/main.5fc6e78a.chunk.css",
+    "static/js/main.6920e5dd.chunk.js"
+  ]
+}
