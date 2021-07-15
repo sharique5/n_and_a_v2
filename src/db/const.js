@@ -121,68 +121,84 @@ export const static_content = {
     ],
     area_of_practice: [
         {
-            name: "Arbitration & Alternative Dispute Resolution",
-            value: "<p>Dispute Resolution practice involving civil, commercial, taxation, criminal and constitutional law, comprises of about twenty five partners and counsel supported by over fifty litigation lawyers is represented at all the eight locations where the Firm has offices.</p>"
+            name: "Civil",
+            value: "<p>Nair & Associates provides comprehensive legal services to our clients under all facets of civil litigation such as Tort, Wills, Estates, Succession and Law of Recovery etc. </p>"
         },
         {
-            name: "Banking & Finance",
-            value: "<p>Banking and Finance practice represents financial institutions, financial services companies, investment funds, development banks, project developers, project companies, contractors and other parties in various secured and unsecured financing transactions.</p>"
-        },
-        {
-            name: "Capital Markets",
-            value: "<p>Nair & Associates has extensive experience in equity capital market, debt/money market and derivative market transactions. The Firm has advised and assisted the government, public sector undertakings as well as private parties on Qualified Institutions Placement</p>"
-        },
-        {
-            name: "Competition and Anti-Trust",
-            value: "<p>The past few years have witnessed India’s transition to a modern anti-trust and competition law regime, introducing law on, among other things, cartelization, price fixing and combinations which are aligned with WTO recommendations and anti-trust policies in the European Union and the United States.</p>"
-        },
-        {
-            name: "Corporate Mergers & Acquisitions",
-            value: "<p>Nair & Associates has a robust Mergers and Acquisitions (M&A) practice, which is globally top ranked for several consecutive years. The transactions and deals undertaken include close working relationships with some of the world’s leading companies</p>"
-        },
-        {
-            name: "Corporate and Commercial",
-            value: "<p>The Corporate and Commercial team of this firm, several of whom have been recognized at domestic and international platforms,  advises clients on a broad spectrum of matters, ranging from corporate governance, company formation, contract law to...</p>"
-        },
-        {
-            name: "Data Privacy & Cybersecurity",
-            value: "<p>Data privacy and cybersecurity remain top priorities for regulators and companies alike, as the threats posed by large-scale data breaches and other cyber incidents continue unabated.</p>"
-        },
-        {
-            name: "Defence, Aviation & Space",
-            value: "<p>In Defence, the Firm has advised OEMs to technology providers and suppliers on various issues besides negotiating joint ventures with foreign investment firms.</p>"
-        },
-        {
-            name: "Dispute Resolution – Litigation",
-            value: "<p>Dispute Resolution practice involving civil, commercial, taxation, criminal and constitutional law is widely recognized The team’s experience and close working relationships with various counsel including several eminent senior counsel of India</p>"
-        },
-        {
-            name: "Healthcare & Lifesciences",
-            value: "<p>Nair & Associates has had the privilege of dealing with a number of prominent pharmaceutical, healthcare and medical device companies ranging from manufacturing to hospitals. The lawyers at the Firm have deep rooted understanding of the requirements of this sector.</p>"
-        },
-        {
-            name: "Insurance",
-            value: "<p>Nair & Associates has extensive experience and understanding of the insurance industry in India. The Firm advises on the entry strategy of its insurance clients and at every stage of their business in India, including making investments in Indian ventures under Indian insurance laws.</p>"
+            name: "Criminal",
+            value: "<p>Nair & Associates have a full arsenal of dedicated criminal lawyers who practice under all the areas covered under our Penal Code and other supporting enactments.</p>"
         },
         {
             name: "Intellectual Property Rights",
-            value: "<p>In a fiercely competitive environment, Intellectual Property Rights (IPR) is a tool which acts as a catalyst in reputation building which despite being an intangible asset, has become the backbone for creating a distinct identity amongst players in the international arena.</p>"
+            value: "<p>Nair & Associates is one among the new generations of IP law firms which are gaining expertise in all the facets of the Intellectual Property Law.</p>"
         },
         {
-            name: "Private Equity and Investment Funds",
-            value: "<p>The importance of private equity and venture capital investors in supporting Indian businesses is well acknowledged. A private equity / venture capital deal raises challenges related to finance, tax, governance, regulatory issues, employees and intellectual property.</p>"
+            name: "Business",
+            value: "<p>We at Nair & Associates center our business practices around transactional and legal advisory services concerning day-to-day business, regulatory issues and corporate governance affairs. The firm represents and advises buyers, sellers and investors through both inbound and outbound transactions in the domestic as well as international markets.</p>"
         },
         {
-            name: "Projects & Infrastructure",
-            value: "<p>The Firm has a significant practice in advising clients in projects and infrastructure. The expertise spans a wide range of sectors including energy, airports, oil and gas, special economic zones, ports construction, real estate, transportation, water treatment and other infrastructure and manufacturing sectors.</p>"
+            name: "Banking",
+            value: "<p>Nair & Associates focuses on a practical and business-oriented approach at achieving the financial objectives of our clients. Our firm caters to the needs of Financial Institutions, Investment Funds, Financial Service Companies, Development Banks, Project Developer Companies, and Market Intermediaries etc.</p>"
         },
         {
-            name: "Real Estate & Urban Development",
-            value: "<p>Real Estate practice is highly ranked by global ranking bodies and is well represented in all the offices across eight cities. Over the years the Firm has advised and assisted several foreign investors in planning their investment strategy in real estate and related infrastructural projects in India.</p>"
+            name: "Direct and Indirect Taxation",
+            value: "<p>We at Nair & Associates deploy a practical and business oriented approach to achieve our clients' financial objectives. We focus on a strong advisory relationship with our clients in order to ensure hassle free compliances of the ever dynamic taxation rules as well as the best possible decision making and planning. Our team practices in all the aspects of Direct/Indirect Taxation and GST related services.</p>"
         },
         {
-            name: "Technology, Media & Telecommunication",
-            value: "<p>As technology increasingly permeates all areas of business, the practice of technology, media and telecoms has become a highly specialised and an important field of expertise for law firms.</p>"
+            name: "Corporate Restructuring",
+            value: "<p>Nair & Associates hosts a team which is qualified in assisting restructuring deals and transactions which includes acquisitions and divestments of shares, assets and businesses, schemes of arrangements, mergers, demergers and amalgamations, sale and purchase of distressed assets, capital and debt restructuring including by-back of securities and reduction of capital. The well researched team of Corporate focused lawyers enables us to deliver holistic and informed advisory guidance to our clients at the stressed stages of insolvency and restructuring.</p>"
+        },
+        {
+            name: "Customs/Export-Import",
+            value: "<p>Our team at Nair & Associates believes in supporting end-to-end solutions to legal challenges faced in cross border business transactions with emphasis on ensuring legal compliances with customs and other allied laws. We cater our clients on both Import and Export deals and insure the abidance of all the rules, regulations and issues regarding classification, valuation, interpretation of exemption notifications, prohibition and restriction on cross-border trade and other Free Trade Agreements.</p>"
+        },
+        {
+            name: "Arbitration & Conciliation",
+            value: "<p>We at Nair & Associates believe in the various advantages that ADR process enjoys over litigation. Our focus is on identifying our client's specific needs, gathering the facts, evaluating the legal issues and then channelizing our efforts to determine the alternate channel of remedy that resonates with the needs of the concerned parties and resolves the legal dispute outside the courts, be it through arbitration, mediation, conciliation or negotiation.</p>"
+        },
+        {
+            name: "Labour and Industrial Employment",
+            value: "<p>Nair & Associates is adept in advising our clients on various compliances that are needed to be met with by companies looking to do business in India. The services offered covers organizational structuring, employment compliance laws, acquisitions, outsourcing, international work force relations, downsizing and retrenchment and other employment laws related litigation.</p>"
+        },
+        {
+            name: "Competition and Anti-Trust",
+            value: "<p>From the outset, Nair & Associates has keenly followed the evolution of the modern competition and anti-trust law regime which makes us well suited to advise and assist our clients on various issues regarding abuse of dominance, cartelization, price fixing and other anti-competitive agreements arrising out of domestic/international transactions.</p>"
+        },
+        {
+            name: "Constitution",
+            value: "<p>Nair & Associates has a special dominance on litigation involving constitutional jurisprudence given the expertise of our Founder in this area of law. The firm has a bustling litigation in complex writ challenges to various administrative actions of public authorities and statutory bodies as well as challenging the constitutional validity of various statutes and subordinate legislations.</p>"
+        },
+        {
+            name: "Infrastructure and Investment",
+            value: "<p>Nair & Associates have a vast experience in dealing with Projects and Infrastructural issues and catering our clients needs in various building and engineering projects and other compliance related works like EPC Contracts, Supply Contracts, Design & Build Contracts, Joint Bidding etc. Our expertise spreads across sectors like energy, oil and gas, special economic zones, water treatment, transportation and other infrastructure and manufacturing sectors.</p>"
+        },
+        {
+            name: "Cyber Laws",
+            value: "<p>We at Nair & Associates have a practical and technical know how in prosecuting and defending various cyber crime cases relating to digital infringements, piracy, data and identity thefts, domain name disputes. Our team also advises and guides our clients in compliance related documentation of various declarations, contracts, disclaimers, software service agreements etc.</p>"
+        },
+        {
+            name: "Family",
+            value: "<p>We at Nair & Associates have a dedicated family consultant in order to counsel and advocate for our client's personal problems. We represent our clients in various aspects of personal and family laws such as succession planning, asset preservation and medical insurance, as well as marital disputes, consented divorce, adoption, restitution and custodial disputes.</p>"
+        },
+        {
+            name: "Property",
+            value: "<p>For local enterprises, our team performs a wide range of commercial property services for developers, investors, lenders, and business users. Team's extensive knowledge of the legal and commercial issues concerning property rights, acquisition, land use as well as conversion, regulatory and authorization issues, overseas investment in real estate, and other real estate-related matters assists our clients in structuring and negotiating complex real estate transactions.</p>"
+        },
+        {
+            name: "Immigration and Passport",
+            value: "<p>At Nair & Associates we provide various immigration law services such as immigration consultancy services, filing of immigration visas, enforcement of refugee rights etc. Our ambit includes dedicated services like Educational Visa, Employment Visa, Medical Tourism, Spousal Visa etc. We also have expertise in dealing with cases arising out of passport frauds.</p>"
+        },
+        {
+            name: "Consumer",
+            value: "<p>We at Nair & Associates strive to enforce the rights available to a consumer and thus actively participate in legal disputes arising out of unfair business, fraud, predatory pricing, misleading claims, faulty services between a consumer and a seller.</p>"
+        },
+        {
+            name: "Contract & Services",
+            value: "<p>Nair & Associates, through their thorough knowledge of laws relating to contracts and various services, have successfully maintained clients that rely upon the firm for assistance in resolving disputes arising in the subject of contracts and their specific performance.</p>"
+        },
+        {
+            name: "Aviation & Maritime Law",
+            value: "<p>We at Nair & Associates are well versed with the vigorously developing area of aviation law and provide services on aspects like airport disinvestment, modernization, and privatization, as well as other elements of international and domestic civil aviation. The firm also represents clients in various maritime and admiralty disputes arising from all the major and minor ports in India.</p>"
         }
     ]
 }

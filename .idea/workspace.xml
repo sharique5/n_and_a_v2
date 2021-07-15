@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff61251-32ef-4cca-8a38-37713cf0c914" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/notFound.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/const.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
