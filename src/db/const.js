@@ -59,7 +59,7 @@ export const static_content = {
             name: "Pramod C. Nair",
             description: "<p>Having founded Nair & Associates over 17 years ago, Pramod C. Nair is currently the Chairman of the Firm. He advised clients in court litigations as well as arbitration disputes. His practice covers constitutional law, international commercial arbitration, administrative law, land & revenue, immigration laws, civil law, corporate frauds, environment law, consumer law and competition law related issues. He has also advised banks and financial institutions on lending for airports, roads, power and other infrastructure projects. He services clients from the world of technology, digital media, fashion, luxury goods, logistics, media and the chemical industry in a variety of matters both, in the nature of civil and criminal litigation. He has vast experience of appearing and practicing before various District Courts, High Courts and Tribunals across the country including the Apex Court of India. He is also the standing counsel for the Bar Council of Madhya Pradesh. He is quiet at ease in handling the dynamic analytical surges in legal matters and he sails off smoothly with a very basic simplicity in grasping the crux of overly complex situations. This essentially defines him a perfect leader to fuel on the values and professional standards at very high pitches.</p>",
             designation: "Chairman & Founder",
-            email: "pramod.nair@nairandassociates.in",
+            email: "nair.associates@rediffmail.com",
             image: ""
         },
         {
@@ -73,14 +73,14 @@ export const static_content = {
             name: "Sahil jain",
             description: "<p>Sahil Jain graduated from Symbiosis Law School with a B.A. LL.B. He has his core expertise in Copyrights, patents, trademarks, industrial designs and other aspects of Intellectual Property Laws. Apart from IP Laws he has ample knowledge in the fields of contract, sale of goods, customs/export-import, competition, aviation and maritime laws. Sahil has also published several research papers and articles in books, Journals and a few blogs. He also possesses immaculate articulation and research skills and is a voracious reader who always strives to gain more knowledge. He has worked for several social organizations and took part is various workshops throughout the whole country.</p>",
             designation: "Associate",
-            email: "sahil.jain@nairandassociates.in",
+            email: "jainsahil2897@gmail.com",
             image: ""
         },
         {
             name: "Nakul Mangal",
             description: "<p>Nakul Mangal has core expertise in corporate law and transactional matters which includes amalgamation, mergers and acquisitions, venture capital transactions, private equity and investment funds, foreign collaborations including joint ventures and licensing transactions. He primarily focuses on banking & finance, debt restructuring and insolvency and Bankruptcy, Indirect Taxation. Nakul Completed his BA.LL.B from Nirma University, Ahmedabad. He has several publications in various Journals and books. Nakul is well versed with laws germane to Indian and foreign Trade, structured finance and securitization and foreign direct investment into India.</p>",
             designation: "Associate",
-            email: "nakul.mangal@nairandassociates.in",
+            email: "nakul9447@gmail.com",
             image: ""
         },
         {
@@ -232,4 +232,10 @@ export const our_achievements = [
         description: "<p><strong>Prohibition Against Ex Post Facto Laws Vis-a-vis The Principle of Fair Trial, </strong>Brain Booster Articles</p><p class=\"p1\"><strong>Nakul Mangal</strong></p>",
         link: "https://www.brainboosterarticles.com/post/prohibition-against-ex-post-facto-laws-vis-%C3%A0-vis-the-principle-of-fair-trial"
     }
+]
+
+export const clients = [
+    'BAR COUNCIL OF MADHYA PRADESH', 'INDORE MUNICIPAL CORPORATION', 'CUREWIN HYLICO PHARMA PRIVATE LIMITED', 'SYNERGY HOSPITAL',
+    'OMAXE LIMITED', 'PATEL MOTORS PRIVATE LIMITED', 'SHASHI HOSPITAL AND RESEARCH CENTRE', 'MANGAL CITY MALL AND HOTEL', 'REDVISION COMPUTER TECHNOLOGIES PRIVATED LIMITED',
+    'LIBERAL COLLEGE OF LAW', 'VIPRI ENGINEERING ENTERPRISES', 'SHRI PADAMVANSHIYA MARWADI RATHORE PANCHAYAT TRUST ', 'SHRIMANT MAHARAJA TUKOJIRAO CLOTH MARKET MERCHANTS ASSOCIATION.'
 ]
