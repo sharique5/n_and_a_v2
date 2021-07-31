@@ -70,6 +70,7 @@ navigation section
 
 .show-menu {
   display: block;
+  overflow-y: auto;
   ul {
     text-align: left;
   }

@@ -16,7 +16,8 @@ export const static_links = [
     },
     {
         name: "Research & Publications",
-        key: "research_&_publications"
+        key: "research_&_publications",
+        is_nav: true
     },
     {
         name: "Our Clientele",
@@ -39,7 +40,8 @@ export const static_links = [
     },
     {
         name: "Other Services",
-        key: "other_services"
+        key: "other_services",
+        is_nav: true
     },
     {
         name: "Contact Us",
