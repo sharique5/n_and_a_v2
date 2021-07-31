@@ -206,7 +206,7 @@ export const static_content = {
 export const our_achievements = [
     {
         description: "<p><strong>A Jurisprudential Analysis of RTI &amp; Good Governance,&nbsp;</strong>Prestige Institute of Management, Gwalior.<br />ISBN: 978-93-86608-63-5</p> <p class=\"p1\"><strong>Nakul Mangal</strong></p>",
-        link: ""
+        link: "https://drive.google.com/file/d/1S5BVWWfji2tD3bTxw6XcG8waCf5oGWdQ/view?usp=sharing"
     },
     {
         description: "<p><strong>LGBT Rights in India: A historical and jurisprudential Analysis</strong><strong>, </strong>The Faculty of Law, The M.S. University of Baroda<br />ISBN: 978-93-87460-55-3</p><p class=\"p1\"><strong>Nakul Mangal</strong></p>",
@@ -214,7 +214,7 @@ export const our_achievements = [
     },
     {
         description: "<p><strong>Justice and Dignity to Under Trial Prisoners in India: A Long Path</strong><strong>, </strong>GLC Law and Policy Review<br />ISBN: 2518-9135</p><p class=\"p1\"><strong>Nakul Mangal, Sahil Jain</strong></p>",
-        link: ""
+        link: "https://drive.google.com/file/d/1AFXpB0CPREkrM-xhCkly9svw3cKZml4N/view?usp=sharing"
     },
     {
         description: "<p><strong>How Paradigm of Law Evolved With the Society</strong><strong>, </strong>Brain Booster Articles</p><p class=\"p1\"><strong>Nakul Mangal</strong></p>",
@@ -226,7 +226,7 @@ export const our_achievements = [
     },
     {
         description: "<p><strong>An Analysis of Plight of Women in India, </strong>Aurora&rsquo;s Degree &amp; PG College, Hyderabad<br />ISBN: 978-93-5273-955-4</p><p class=\"p1\"><strong>Nakul Mangal</strong></p>",
-        link: ""
+        link: "https://drive.google.com/file/d/1UTCi48_hU05jOQANkEf4paeOviUDCOj2/view?usp=sharing"
     },
     {
         description: "<p><strong>Prohibition Against Ex Post Facto Laws Vis-a-vis The Principle of Fair Trial, </strong>Brain Booster Articles</p><p class=\"p1\"><strong>Nakul Mangal</strong></p>",

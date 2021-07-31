@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff61251-32ef-4cca-8a38-37713cf0c914" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Clientele.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/clientele.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenericRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenericRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/achievements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/achievements.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,8 @@
       <workItem from="1625704608707" duration="3084000" />
       <workItem from="1625908193844" duration="1530000" />
       <workItem from="1625977172352" duration="7724000" />
-      <workItem from="1626753614772" duration="923000" />
+      <workItem from="1626753614772" duration="1318000" />
+      <workItem from="1627722792807" duration="779000" />
     </task>
     <servers />
   </component>
