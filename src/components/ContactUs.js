@@ -1,5 +1,6 @@
 import React from 'react'
 import {BiMobile, BsGeoAlt, HiOutlineMailOpen} from "react-icons/all";
+import emailjs from 'emailjs-com';
 import '../stylesheets/contactUs.scss'
 
 class ContactUs extends React.Component {
@@ -68,10 +69,24 @@ class ContactUs extends React.Component {
 
     handleSubmit = event => {
         event.preventDefault();
-        console.log(this.state);
         if (this.validateForm()) {
             // <a href="mailto:no-one@snai1mai1.com?subject=look at this website&body=Hi,I found this website and thought you might like it http://www.geocities.com/wowhtml/">tell a friend</a>
-            window.location.assign("mailto:contact@nairandassociates.com?subject=Message from " + this.state.name + "&body=" + this.state.message + "---" + this.state.email + " --- " + this.state.phone);
+            // window.location.assign("mailto:contact@nairandassociates.com?subject=Message from " + this.state.name + "&body=" + this.state.message + "---" + this.state.email + " --- " + this.state.phone);
+
+            let templateParams = {
+                name: this.state.name,
+                phone: this.state.phone,
+                message: this.state.message,
+                email: this.state.email
+            }
+
+            emailjs.send('service_awej1t3', 'template_1cnyq5d', templateParams, 'user_7OaFZVL0LZ08Q0abrEoEg')
+                .then((result) => {
+                    console.log("res => ", result.text);
+                }, (error) => {
+                    console.log("err => ", error.text);
+                });
+
             this.resetForm()
         }
     }
@@ -80,7 +95,8 @@ class ContactUs extends React.Component {
         this.setState({
             name: '',
             email: '',
-            message: ''
+            message: '',
+            phone: ''
         })
     }
 
