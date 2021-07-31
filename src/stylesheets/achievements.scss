@@ -1,4 +1,5 @@
-.achievement-comp {
+.publication-comp {
+  min-height: 50vh;
   .publication {
     padding: 2%;
     border: 3px dashed #3D5B94;
@@ -22,7 +23,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .achievement-comp {
+  .publication-comp {
     .publication {
       margin-bottom: 5%;
     }

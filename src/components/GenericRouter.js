@@ -27,7 +27,7 @@ class GenericRouter extends React.Component {
     }
 
     getComponentToRender() {
-        if (['gallery', 'research_&_publications'].indexOf(this.getCurrentRoute()) > -1) {
+        if (['gallery'].indexOf(this.getCurrentRoute()) > -1) {
             return <ComingSoon/>
         }
         if (this.getCurrentRoute() === "not_found") {
@@ -45,8 +45,8 @@ class GenericRouter extends React.Component {
         if (this.getCurrentRoute() === "areas_of_practice") {
             return <PracticeAreas/>
         }
-        if (this.getCurrentRoute() === "our_achievements") {
-            return <Achievements/>
+        if (this.getCurrentRoute() === "our_achievements" || this.getCurrentRoute() === "research_&_publications") {
+            return <Achievements route={this.getCurrentRoute()}/>
         }
         if (this.getCurrentRoute() === "outstation_services") {
             return <OutstationService/>

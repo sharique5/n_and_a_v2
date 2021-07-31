@@ -263,3 +263,10 @@ export const other_services = [
             "<p class=\"p1\">We at Nair &amp; Associates are dedicated to promote amicable, fair and swift resolution of disputes that our clients may come across. We provide facilities of Alternative Dispute Resolution including International and Domestic commercial arbitration, mediation/conciliation and negotiation. Our clients can rely on us to settle their disputes with neutrality, freedom to choose the option, venue, language, and the nomination of the neutrals.<span class=\"Apple-converted-space\">&nbsp;</span></p>"
     }
 ]
+
+export const research_and_publications = [
+    {
+        description: "<p><strong>A Study on Concept of Valid Acceptance By Critically Analyzing the M/S. Padia Timber Co. P. Ltd. vs The Board of Trustees Case</strong><p class=\"p1\"><strong>Nakul Mangal, Sahil Jain</strong></p>",
+        link: "https://drive.google.com/file/d/1asQxchDqPbta6JbJhxNORFC_5s4Gis3R/view?usp=sharing"
+    }
+]
