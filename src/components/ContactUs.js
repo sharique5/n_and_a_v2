@@ -1,6 +1,8 @@
 import React from 'react'
 import {BiMobile, BsGeoAlt, HiOutlineMailOpen} from "react-icons/all";
 import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import '../stylesheets/contactUs.scss'
 
 class ContactUs extends React.Component {
@@ -82,9 +84,21 @@ class ContactUs extends React.Component {
 
             emailjs.send('service_awej1t3', 'template_1cnyq5d', templateParams, 'user_7OaFZVL0LZ08Q0abrEoEg')
                 .then((result) => {
-                    console.log("res => ", result.text);
+                    toast.info('Message sent successfully', {
+                        position: "top-right",
+                        autoClose: 3000,
+                        hideProgressBar: true,
+                        closeOnClick: true,
+                        pauseOnHover: false
+                    });
                 }, (error) => {
-                    console.log("err => ", error.text);
+                    toast.error('Message Failed, please try again', {
+                        position: "top-right",
+                        autoClose: 3000,
+                        hideProgressBar: true,
+                        closeOnClick: true,
+                        pauseOnHover: false
+                    });
                 });
 
             this.resetForm()
@@ -108,7 +122,8 @@ class ContactUs extends React.Component {
 
     render() {
         return (
-            <div className="contact-us">
+            <>
+               <div className="contact-us">
                 <div className="row">
                     <div className="col-lg-4 col-sm-6 col-md-4">
                         <BiMobile size={42}/>
@@ -153,6 +168,18 @@ class ContactUs extends React.Component {
                     </div>
                 </div>
             </div>
+                <ToastContainer
+                    position="top-right"
+                    autoClose={3000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                />
+            </>
         )
     }
 }
