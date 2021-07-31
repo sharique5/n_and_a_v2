@@ -4,12 +4,14 @@ import './App.css';
 import AppComponent from "./components/AppComponent";
 import GenericRouter from "./components/GenericRouter";
 import NotFound from "./components/NotFound";
+import Home from "./components/Home";
 
 
 function App() {
   return (
       <BrowserRouter>
           <div className="App">
+              <AppComponent/>
               <Switch>
                   <Route path="/other_services">
                       <GenericRouter current_path="other_services"/>
@@ -42,7 +44,7 @@ function App() {
                       <GenericRouter current_path="contact_us"/>
                   </Route>
                   <Route exact path="/">
-                      <AppComponent/>
+                      <Home/>
                   </Route>
                   <Route path="/*">
                       <NotFound/>
