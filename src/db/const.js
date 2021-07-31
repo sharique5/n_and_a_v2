@@ -239,3 +239,27 @@ export const clients = [
     'OMAXE LIMITED', 'PATEL MOTORS PRIVATE LIMITED', 'SHASHI HOSPITAL AND RESEARCH CENTRE', 'MANGAL CITY MALL AND HOTEL', 'REDVISION COMPUTER TECHNOLOGIES PRIVATED LIMITED',
     'LIBERAL COLLEGE OF LAW', 'VIPRI ENGINEERING ENTERPRISES', 'SHRI PADAMVANSHIYA MARWADI RATHORE PANCHAYAT TRUST ', 'SHRIMANT MAHARAJA TUKOJIRAO CLOTH MARKET MERCHANTS ASSOCIATION.'
 ]
+
+export const other_services = [
+    {
+        name: "Tax Consultancy",
+        value: "<p class=\"p1\">Our Tax Consultancy team endeavors to help people and organizations in paying their taxes in the most pocket friendly and hassle free way. We hold expertise in taxation laws, compliances and tax planning. We offer both long and short term tax-optimization services to individuals and organizations alike and work tirelessly to minimize your tax liabilities throughout the year.<span class=\"Apple-converted-space\">&nbsp; </span>We are happy to provide our services in the following domains -<span class=\"Apple-converted-space\">&nbsp;</span></p>\n" +
+            "<ul class=\"ul1\">\n" +
+            "<li class=\"li2\"><span class=\"s1\"></span><span class=\"s2\">Preparation or review of the tax returns, namely the Modelo 1B of the IRPC.</span></li>\n" +
+            "<li class=\"li2\"><span class=\"s1\"></span><span class=\"s2\">Analysis and optimization of the tax framing of financial products and services and identification of tax contingencies, risks and opportunities.</span></li>\n" +
+            "<li class=\"li2\"><span class=\"s1\"></span><span class=\"s2\">Execution of the accounting, reporting and conversion of the accounts in accordance with the various accounting frameworks.</span></li>\n" +
+            "<li class=\"li2\"><span class=\"s1\"></span><span class=\"s2\">Tax structuring of special purpose vehicles and investment funds.</span></li>\n" +
+            "<li class=\"li2\"><span class=\"s1\"></span><span class=\"s2\">Assistance during external or internal tax inspections.</span></li>\n" +
+            "<li class=\"li2\"><span class=\"s1\"></span><span class=\"s2\">Support with the preparation of information and clarifications for the Tax Administration.</span></li>\n" +
+            "<li class=\"li2\"><span class=\"s1\"></span><span class=\"s2\">Support with the preparation for situations involving audition rights, claims and requests for binding tax information.</span></li>\n" +
+            "</ul>"
+    },
+    {
+        name: "Arbitration, Mediation and Conciliation Services ",
+        value: "<p class=\"p1\">Arbitration is an adversarial process in which a neutral arbitrator renders a decision, known as an award, after appreciating the evidence and arguments of the concerned parties. Arbitration proceedings may involve representation by counsels, written briefs, examination of witnesses and oral arguments, similar to the court of law. However, what sets it apart from the court proceedings is the avoidance of delay, expanse and the acrimony that comes with court litigation.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n" +
+            "<p class=\"p2\"></p>\n" +
+            "<p class=\"p1\">Apart from Arbitration, another prevalent and effective ADR mechanism is Mediation which is a confidential and a non-binding process where the disputed parties try to settle their legal dispute with the active participation of a third mutually neutral party, known as the mediator. The sole objective of the process is to arrive at a mutually acceptable and fair solution which bypasses the hefty and time consuming litigation process.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n" +
+            "<p class=\"p2\"><span class=\"Apple-converted-space\">&nbsp;</span></p>\n" +
+            "<p class=\"p1\">We at Nair &amp; Associates are dedicated to promote amicable, fair and swift resolution of disputes that our clients may come across. We provide facilities of Alternative Dispute Resolution including International and Domestic commercial arbitration, mediation/conciliation and negotiation. Our clients can rely on us to settle their disputes with neutrality, freedom to choose the option, venue, language, and the nomination of the neutrals.<span class=\"Apple-converted-space\">&nbsp;</span></p>"
+    }
+]

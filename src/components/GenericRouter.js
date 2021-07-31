@@ -12,6 +12,7 @@ import OutstationService from "./OutstationService";
 import Achievements from "./Achievements";
 import ComingSoon from "./ComingSoon";
 import Clientele from "./Clientele";
+import OtherServices from "./OtherServices";
 
 class GenericRouter extends React.Component {
     getCurrentRoute() {
@@ -26,7 +27,7 @@ class GenericRouter extends React.Component {
     }
 
     getComponentToRender() {
-        if (['other_services', 'gallery', 'research_&_publications'].indexOf(this.getCurrentRoute()) > -1) {
+        if (['gallery', 'research_&_publications'].indexOf(this.getCurrentRoute()) > -1) {
             return <ComingSoon/>
         }
         if (this.getCurrentRoute() === "not_found") {
@@ -52,6 +53,9 @@ class GenericRouter extends React.Component {
         }
         if (this.getCurrentRoute() === "our_clientele") {
             return <Clientele/>
+        }
+        if (this.getCurrentRoute() === "other_services") {
+            return <OtherServices/>
         }
     }
 
