@@ -1,11 +1,12 @@
 .hello-class {
   background-image: url("../static/images/baner.jpg");
-  max-height: 600px;
-  min-height: 400px;
+  max-height: 300px;
+  min-height: 200px;
   display: flex;
   justify-content: center;
   flex-flow: column;
   margin-bottom: 5%;
+  margin-top: 10%;
 
   .container {
     background: transparent;
@@ -17,5 +18,11 @@
       font-weight: bold;
       text-transform: uppercase;
     }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hello-class {
+    margin-top: 25%;
   }
 }
