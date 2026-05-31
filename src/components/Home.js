@@ -6,6 +6,25 @@ import Navigation from "./Navigation";
 import Header from "./Header";
 import Footer from "./Footer";
 
+const ORGANIZATION_SCHEMA = {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Nair & Associates",
+    "alternateName": "N & A",
+    "url": "https://www.nairandassociates.in",
+    "logo": "https://www.nairandassociates.in/logo192.png",
+    "description": "Nair & Associates is a full-service law firm with over 17 years of experience providing expert legal counsel across 20+ practice areas in India.",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Indore",
+        "addressRegion": "Madhya Pradesh",
+        "addressCountry": "IN"
+    },
+    "email": "nair.associates@rediffmail.com",
+    "areaServed": "IN",
+    "serviceType": ["Civil Law", "Criminal Law", "Corporate Law", "Intellectual Property", "Taxation", "Banking Law", "Family Law", "Arbitration"]
+};
+
 class Home extends React.Component {
     render() {
         return (
@@ -14,6 +33,7 @@ class Home extends React.Component {
                     <title>Nair &amp; Associates | Legal Counsels and Consultants</title>
                     <meta name="description" content="Nair &amp; Associates is a full-service law firm providing expert legal counsel across Civil, Criminal, Corporate, IP, Taxation, Banking and 20+ practice areas. Serving clients across India." />
                     <link rel="canonical" href="https://www.nairandassociates.in/" />
+                    <script type="application/ld+json">{JSON.stringify(ORGANIZATION_SCHEMA)}</script>
                 </Helmet>
                 <Header />
                 <div className="container">

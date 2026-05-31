@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import HeaderBar from "./HeaderBar";
 import "../stylesheets/genericRouter.scss"
 import Footer from "./Footer";
-import {static_links} from "../db/const";
+import {static_links, static_content} from "../db/const";
 import ComponentHeader from "./ComponentHeader";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
@@ -67,6 +67,45 @@ const SEO_META = {
         canonical: "https://www.nairandassociates.in/gallery"
     }
 };
+
+function buildTeamSchema() {
+    return {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Legal Team at Nair & Associates",
+        "itemListElement": static_content.our_team
+            .filter(m => m.name && m.designation)
+            .map((member, index) => ({
+                "@type": "ListItem",
+                "position": index + 1,
+                "item": {
+                    "@type": "Person",
+                    "name": member.name,
+                    "jobTitle": member.designation,
+                    "worksFor": { "@type": "LegalService", "name": "Nair & Associates" },
+                    ...(member.email ? { "email": member.email } : {})
+                }
+            }))
+    };
+}
+
+function buildPracticeAreasSchema() {
+    return {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Areas of Practice at Nair & Associates",
+        "itemListElement": static_content.area_of_practice.map((area, index) => ({
+            "@type": "ListItem",
+            "position": index + 1,
+            "item": {
+                "@type": "LegalService",
+                "name": area.name,
+                "provider": { "@type": "LegalService", "name": "Nair & Associates" }
+            }
+        }))
+    };
+}
+
 class GenericRouter extends React.Component {
     getCurrentRoute() {
         return this.props.current_path
@@ -114,6 +153,10 @@ class GenericRouter extends React.Component {
 
     render() {
         const meta = SEO_META[this.getCurrentRoute()] || {};
+        const route = this.getCurrentRoute();
+        let jsonLd = null;
+        if (route === 'our_team') jsonLd = buildTeamSchema();
+        if (route === 'areas_of_practice') jsonLd = buildPracticeAreasSchema();
         return (
             <div className="generic-router">
                 {meta.title && (
@@ -121,6 +164,7 @@ class GenericRouter extends React.Component {
                         <title>{meta.title}</title>
                         <meta name="description" content={meta.description} />
                         <link rel="canonical" href={meta.canonical} />
+                        {jsonLd && <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>}
                     </Helmet>
                 )}
                 <HeaderBar/>
