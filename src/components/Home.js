@@ -13,7 +13,7 @@ class Home extends React.Component {
                 <div className="container">
                     <div className="row search-row">
                         <div className="col-sm-12">
-                            <form role="form">
+                            <form>
                                 <div className="input-group">
                                     <span className="input-group-addon"><BsSearch/></span>
                                     <input type="text" className="form-control" placeholder="Search Website"/>

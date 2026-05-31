@@ -2,10 +2,6 @@ import React from 'react'
 import {Button, Modal} from "react-bootstrap";
 
 class DisclaimerModal extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <Modal

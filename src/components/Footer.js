@@ -33,9 +33,9 @@ class Footer extends React.Component {
                         <p> <BiCopyright/> 2021 - Nair & Associates</p>
                     </div>
                     <div className="social">
-                        <a href="#" className="linked">in</a>
-                        <a href="#" className="email">@</a>
-                        <a href="#" className="face">f</a>
+                        <button type="button" className="linked">in</button>
+                        <button type="button" className="email">@</button>
+                        <button type="button" className="face">f</button>
                         {/*<a className="support" onClick={evt => this.handleShow(evt)}>Disclaimer</a>*/}
                         {/*<a href="#" className="tweet">t</a>*/}
                     </div>

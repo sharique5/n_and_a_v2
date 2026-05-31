@@ -53,7 +53,7 @@ class ContactUs extends React.Component {
             hasError = true
             errors.message = 'Required'
         }
-        if (this.state.name.length === 0 || (this.state.name.length > 0 && !this.state.name.match("^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$"))) {
+        if (this.state.name.length === 0 || (this.state.name.length > 0 && !this.state.name.match(/^[A-Za-z\s]{1,}[.]{0,1}[A-Za-z\s]{0,}$/))) {
             hasError = true
             errors.name = 'Invalid Or Empty Name'
         }
