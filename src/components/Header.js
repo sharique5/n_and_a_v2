@@ -6,8 +6,8 @@ class Header extends React.Component {
         return (
             <div className="header">
                 <div className="container header-container">
-                    <div className="title">Nair & Associates</div>
-                    <div className="tagline">Legal Counsels and Consultants</div>
+                    <h1 className="title">Nair &amp; Associates</h1>
+                    <p className="tagline">Legal Counsels and Consultants</p>
                 </div>
             </div>
         )

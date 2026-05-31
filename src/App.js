@@ -1,17 +1,34 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
+import { useEffect } from 'react';
+import ReactGA from 'react-ga4';
 import './App.css';
 import AppComponent from "./components/AppComponent";
 import GenericRouter from "./components/GenericRouter";
 import NotFound from "./components/NotFound";
 import Home from "./components/Home";
 
+const GA_MEASUREMENT_ID = process.env.REACT_APP_GA_MEASUREMENT_ID;
+if (GA_MEASUREMENT_ID) {
+  ReactGA.initialize(GA_MEASUREMENT_ID);
+}
+
+function RouteTracker() {
+  const location = useLocation();
+  useEffect(() => {
+    if (GA_MEASUREMENT_ID) {
+      ReactGA.send({ hitType: 'pageview', page: location.pathname + location.search });
+    }
+  }, [location]);
+  return null;
+}
 
 function App() {
   return (
       <HelmetProvider>
           <BrowserRouter>
+              <RouteTracker />
               <div className="App">
                   <AppComponent/>
                   <Routes>

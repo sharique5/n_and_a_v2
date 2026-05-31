@@ -12,7 +12,7 @@ class DisclaimerModal extends React.Component {
             >
                 <Modal.Header>
                     <Modal.Title id="contained-modal-title-vcenter">
-                        <h1>Disclaimer</h1>
+                        <h2>Disclaimer</h2>
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
