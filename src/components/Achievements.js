@@ -21,7 +21,7 @@ class Achievements extends React.Component {
                             <div className="publication">
                                 <div dangerouslySetInnerHTML={{ __html: achievement.description }} />
                                 {
-                                    achievement.link && <a href={achievement.link} target="_blank">
+                                    achievement.link && <a href={achievement.link} target="_blank" rel="noreferrer">
                                         See publication
                                         <MdOpenInNew/>
                                     </a>
