@@ -1,39 +1,28 @@
 import React from 'react'
-import { Redirect } from 'react-router'
+import { useNavigate } from 'react-router-dom'
 import '../stylesheets/notFound.scss'
 
-class NotFound extends React.Component {
+function NotFound() {
+    const navigate = useNavigate();
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            goBack: false
-        }
+    const handleClick = () => {
+        navigate('/');
     }
 
-    handleClick = () => {
-        this.setState({ goBack: true})
-    }
+    return (
+        <section className="container-fluid">
+            <div className="row not-found">
+                <div className="col-md-12">
 
-    render() {
-        if (this.state.goBack) {
-            return <Redirect to="/"/>
-        }
-        return (
-            <section className="container-fluid">
-                <div className="row not-found">
-                    <div className="col-md-12">
-
-                        <h1>404</h1>
-                        <h2><i className="fa fa-frown-o" aria-hidden="true"></i> Oh! The page cannot be found...</h2>
-                        <h3>The link might be incorrect...</h3>
-                        <h4>or the page was deleted</h4>
-                        <button onClick={this.handleClick}>go back</button>
-                    </div>
+                    <h1>404</h1>
+                    <h2><i className="fa fa-frown-o" aria-hidden="true"></i> Oh! The page cannot be found...</h2>
+                    <h3>The link might be incorrect...</h3>
+                    <h4>or the page was deleted</h4>
+                    <button onClick={handleClick}>go back</button>
                 </div>
-            </section>
-        )
-    }
+            </div>
+        </section>
+    )
 }
 
 export default NotFound

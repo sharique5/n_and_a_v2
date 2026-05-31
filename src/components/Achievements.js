@@ -1,7 +1,7 @@
 import React from 'react'
 import {our_achievements, research_and_publications} from "../db/const";
 import '../stylesheets/achievements.scss';
-import {MdOpenInNew} from "react-icons/all";
+import {MdOpenInNew} from "react-icons/md";
 
 class Achievements extends React.Component {
 

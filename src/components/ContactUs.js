@@ -1,6 +1,8 @@
 import React from 'react'
-import {BiMobile, BsGeoAlt, HiOutlineMailOpen} from "react-icons/all";
-import emailjs from 'emailjs-com';
+import {BiMobile} from "react-icons/bi";
+import {BsGeoAlt} from "react-icons/bs";
+import {HiOutlineMailOpen} from "react-icons/hi";
+import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import '../stylesheets/contactUs.scss'

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../stylesheets/footer.scss'
-import {BiCopyright} from "react-icons/all";
+import {BiCopyright} from "react-icons/bi";
 
 class Footer extends React.Component {
     constructor(props) {

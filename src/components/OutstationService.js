@@ -1,7 +1,7 @@
 import React from 'react'
 import {ComposableMap, Geographies, Geography, Marker} from "react-simple-maps";
 import GeoData from '../db/IndiaMap.json'
-import ReactTooltip from "react-tooltip";
+import {Tooltip} from "react-tooltip";
 
 const markers = [
     {
@@ -377,12 +377,11 @@ class OutstationService extends React.Component {
                 <div className="col-md-12 col-sm-12 col-lg-12 col-xs-12">
                     <h3>Our service network includes</h3>
                     <ComposableMap
-                        projection="geoAzimuthalEqualArea"
+                        projection="geoMercator"
                         projectionConfig={{
                             center: [78.9629, 22.5937],
                             scale: 1000
                         }}
-                        projection="geoMercator"
                     >
                         <Geographies geography={GeoData}>
                             {({ geographies }) =>
@@ -406,7 +405,7 @@ class OutstationService extends React.Component {
                                             this.setTooltipContent("");
                                         }}
 
-                                        data-tip data-for="registerTip"
+                                        data-tooltip-id="registerTip" data-tooltip-content={name}
                                 />
                                 {/*<text*/}
                                 {/*    textAnchor="middle"*/}
@@ -418,9 +417,7 @@ class OutstationService extends React.Component {
                             </Marker>
                         ))}
                     </ComposableMap>
-                    <ReactTooltip id="registerTip" place="top" effect="solid">
-                        {this.state.content}
-                    </ReactTooltip>
+                    <Tooltip id="registerTip" place="top" />
                 </div>
             </div>
         )

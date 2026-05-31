@@ -1,6 +1,6 @@
 import React from 'react'
 import '../stylesheets/home.scss'
-import {BsSearch} from "react-icons/all";
+import {BsSearch} from "react-icons/bs";
 import Navigation from "./Navigation";
 import Header from "./Header";
 import Footer from "./Footer";
