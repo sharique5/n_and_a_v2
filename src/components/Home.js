@@ -31,7 +31,7 @@ class Home extends React.Component {
             <div className="home">
                 <Helmet>
                     <title>Nair &amp; Associates | Legal Counsels and Consultants</title>
-                    <meta name="description" content="Nair &amp; Associates is a full-service law firm providing expert legal counsel across Civil, Criminal, Corporate, IP, Taxation, Banking and 20+ practice areas. Serving clients across India." />
+                    <meta name="description" content="Nair &amp; Associates — full-service law firm in Indore. Expert counsel in Civil, Criminal, Corporate, IP, Tax and 20+ practice areas across India." />
                     <link rel="canonical" href="https://www.nairandassociates.in/" />
                     <script type="application/ld+json">{JSON.stringify(ORGANIZATION_SCHEMA)}</script>
                 </Helmet>
