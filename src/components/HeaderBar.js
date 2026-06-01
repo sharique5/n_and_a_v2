@@ -60,8 +60,11 @@ class HeaderBar extends React.Component {
                             <span className="icon icon-bar"></span>
                         </button>
                         <a href="/" className="navbar-brand">
-                            <div className="title">Nair & Associates</div>
-                            <div className="tagline">Legal Counsels and Consultants</div>
+                            <img src="/favicon-96x96.png" alt="Nair &amp; Associates logo" className="brand-logo" />
+                            <div className="brand-text">
+                                <div className="title">Nair &amp; Associates</div>
+                                <div className="tagline">Legal Counsels and Consultants</div>
+                            </div>
                         </a>
 
                         {/*<a href="#" className="navbar-brand">Digital Team - {this.state.toggle ? "true" : "false"}</a>*/}

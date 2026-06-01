@@ -10,13 +10,27 @@ navigation section
     color: #00c6d7;
     font-weight: 600;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
-    .navbar-toggle {
-      background: #00c6d7;
-      padding: 4px 6px;
-      font-size: 16px;
-      color: #fff;
+    .brand-logo {
+      height: 40px;
+      width: 40px;
+      object-fit: contain;
     }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .navbar-toggle {
+    background: #00c6d7;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
   }
 
   .nav {
@@ -56,14 +70,16 @@ navigation section
 }
 @media(min-width:768px){
   .custom-navbar {
-    background: #3D5B94;
     padding: 10px;
     border-bottom: 0;
-    background: 0 0;
 
     &.top-nav-collapse {
       padding: 8px;
       background: #3D5B94;
+    }
+
+    .navbar-toggle {
+      display: none;
     }
   }
 }
